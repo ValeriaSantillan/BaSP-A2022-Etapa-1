@@ -1,0 +1,123 @@
+.header{
+    position: fixed;
+    width: 1187px;
+    height: 104px;
+    left: 325px;
+    top: 0px;
+    background: #373867;
+    /*border-bottom-color: white;
+    border-bottom-width: 2px;*/
+}
+#simbolo{
+    position: relative;
+    left: 29.05px;
+    top: 26px;
+    width: 35.33px;
+    height: 33.7px;
+    color: white;
+}
+.title{
+    position: relative;
+    top: 32.74px;
+    left: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+}
+/*.line{
+    position: absolute;
+    left: 32.97px;
+    top: 77.53px;
+    width: 1107.03px;
+    color: white;
+}*/
+.box{
+    position: absolute;
+    width: 109.01px;
+    height: 16px;
+    left: 1031px;
+    top: 45px;
+}
+#simbolos{
+    position: relative;
+    color: white;
+    width: 16px;
+    height: 16px;
+}
+.aside{
+    position: fixed;
+    width: 325px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+    background: #373867;
+}
+.search{
+    position: absolute;
+    width: 260px;
+    height: 38px;
+    left: 32px;
+    top: 30px;
+    background-color: #373867;
+    color: grey;
+}
+#loupe{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    color: grey;
+}
+.bold{
+    position: relative;
+    width: 82px;
+    height: 20px;
+    left: 29px;
+    top: 119px;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+}
+.list{
+    position: absolute;
+    left: 29px;
+    top: 202px;
+    width: 82px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    text-transform: uppercase;
+}
+/*.line-aside{
+    position: relative;
+    width: 281px;
+    height: 0px;
+    left: 11px;
+    top: 156px;
+    color: grey;
+}*/
+#text{
+    position: relative;
+    left: 29px;
+    top: 462px;
+}
+.main{
+    position: relative;
+    width: 1187px;
+    height: 878px;
+    left: 325px;
+    top: 104px;
+}

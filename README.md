@@ -6,4 +6,7 @@
 ### Week 01
 The mock-up of the first week's screenflow landing is made.
 
+### Week 02
+Styles are added to the landing page to make it look the same as the previous figma. 
+
 _By Valeria-Santillan_

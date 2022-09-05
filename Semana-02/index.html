@@ -5,47 +5,54 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Landing page of Trackgenix">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/styles.css">
         <title>Trackgenix</title>
     </head>
     <body>
         <header>
-            <h1>Trackgenix</h1>
-            <section>
-                <img src="assets/header-twitter.png" alt="Twitter icon">
-                <img src="assets/header-facebook.png" alt="Facebook icon">
-                <img src="assets/header-linkedin.png" alt="LinkedIn icon">
-            </section>
+            <div class="header"> 
+                <i class="fa-solid fa-bars" id="simbolo" ></i>
+                <span class="title">Trackgenix</span>
+                <nav class="box">
+                    <i class="fa-brands fa-twitter" id="simbolos"></i>
+                    <i class="fa-brands fa-facebook" id="simbolos"></i>
+                    <i class="fa-brands fa-instagram" id="simbolos"></i>
+                    <i class="fa-brands fa-linkedin" id="simbolos"></i>
+                </nav>
+            </div>
         </header>
-        <aside>
-            <input type="search" value="Buscar">
-            <ul>
-                <li>Menu</li>
-                <li>Home</li>
-                <li>Sign up</li>
-                <li>Log in</li>
-                <li>Contact info</li>
+        <aside class="aside">
+            <nav> 
+            <i class="fa-solid fa-magnifying-glass" id="loupe" ></i>
+            <input type="search" value="Search" class="search">
+            <p class="bold">Menu</p>
+            <ul class="list">
+                <p>Home</p>
+                <p>Sign up</p>
+                <p>Log in</p>
+                <p>Contact info</p>
             </ul>
-            <h2>Get in touch</h2>
-            <p>
-                Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Lacinia quis vel eros donec ac odio tempor orci. 
-                Nulla porttitor massa id neque aliquam.
-            </p>
-            <img src="assets/aside-letter.png" alt="Email icon letre">
-            <p>
-                trackgenix@gigatech.com
-            </p>
-            <img src="assets/aside-phone.png" alt="Phone icon">
-            <p>
-                +598 99123456
-            </p>
-            <img src="assets/aside-address.png" alt="Address icon">
-            <p>
-                Av. Montevideo 1234, 11200
-            </p>
+            </nav>
+            <div>
+                <p class="bold" id="text">Get in touch</p>
+                <p>
+                    Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Lacinia quis vel eros donec ac odio tempor orci. 
+                    Nulla porttitor massa id neque aliquam.
+                </p>
+                <img src="assets/aside-letter.png" alt="Email icon letre">
+                <p>trackgenix@gigatech.com</p>
+                <img src="assets/aside-phone.png" alt="Phone icon">
+                <p>+598 99123456</p>
+                <img src="assets/aside-address.png" alt="Address icon">
+                <p>Av. Montevideo 1234, 11200</p>
+            </div>
         </aside>
-        <main>
+        <main class="main">
             <section> 
-                <h2>Trackgenix</h2>
+                <h1>Trackgenix</h1>
                 <p>
                     Lorem ipsum dolor sit amet. Quo sint dolor ut beatae nihil ut doloribus galisum ut doloribus enim. 
                     Rem neque dolor nam beatae sapiente id dolorum eligendi? Sit facilis voluptatibus qui molestiae nulla et assumenda 
@@ -130,7 +137,7 @@
                         <label for="Systems">Systems</label>
                         <input type="radio" id="Business" value="Business">
                         <label for="Business">Business</label>
-                        <h3>Message:</h3>
+                        <label>Message:</label>
                         <input type="text" id="message" name="message">
                     </form>
                     <button type="submit">Submit</button>
@@ -160,10 +167,10 @@
         </main>
         <footer>
             <section>
-                <article> 
+                <div> 
                     <h2>Trackgenix </h2>
-                </article>
-                <article>
+                </div>
+                <div>
                     <h4>products</h4>
                     <ol>
                         <li>functionalities</li>
@@ -185,14 +192,14 @@
                         <li>api</li>
                         <li>contact</li>
                     </ol>
-                </article>
-                <article>
+                </div>
+                <div>
                     <img src="assets/footer-twitter.png" alt="Twitter icon">
                     <img src="assets/footer-instagram.png" alt="Instagram icon">
                     <img src="assets/footer-facebook.png" alt="Facebook icon">
                     <img src="assets/footer-linkedin.png" alt="LinkedIn icon">
                     <img src="assets/footer-github.png" alt="GitHub icon">
-                </article>
+                </div>
             </section>
         </footer>
     </body>

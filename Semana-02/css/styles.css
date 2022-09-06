@@ -28,13 +28,13 @@
     color: white;
     text-transform: uppercase;
 }
-/*.line{
+.line{
     position: absolute;
     left: 32.97px;
     top: 77.53px;
     width: 1107.03px;
-    color: white;
-}*/
+    border-bottom: 2px solid white;
+}
 .box{
     position: absolute;
     width: 109.01px;
@@ -75,44 +75,72 @@
 }
 .bold{
     position: relative;
-    width: 82px;
+    width: 200px;
     height: 20px;
     left: 29px;
     top: 119px;
     font-family: 'Roboto';
     font-style: bold;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
     color: white;
     text-transform: uppercase;
 }
 .list{
     position: absolute;
-    left: 29px;
     top: 202px;
-    width: 82px;
+    width: 200px;
     height: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
     color: white;
     text-transform: uppercase;
 }
-/*.line-aside{
+.line-aside{
     position: relative;
     width: 281px;
     height: 0px;
-    left: 11px;
-    top: 156px;
-    color: grey;
-}*/
+    right: 18px;
+    bottom: 5px;
+    border-bottom: 2px solid grey;
+}
 #text{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+}
+.text-paragraph{
     position: relative;
+    width: 258px;
+    height: 97px;
+    top: 119px;
     left: 29px;
-    top: 462px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 19px;
+    color: white;
+}
+#contact{
+    position: absolute;
+    left: 0px;
+    top: 250px;
+}
+.info{
+    position: relative;
+    width: 258px;
+    left: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
 }
 .main{
     position: relative;

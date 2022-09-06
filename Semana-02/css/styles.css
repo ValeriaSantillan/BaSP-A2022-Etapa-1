@@ -290,3 +290,142 @@
     font-variant: small-caps;
     text-transform: uppercase;
 }
+.third-frame{
+    position: absolute;
+    width: 1187px;
+    height: 878px;
+    left: 0px;
+    top: 1756px;
+    background: white;
+}
+.third-frame-first-image{
+    position: absolute;
+    width: 387px;
+    height: 581px;
+    left: 95px;
+    top: 218px;
+    border-radius: 8px;
+}
+.third-frame-first-text{
+    position: absolute;
+    width: 435px;
+    height: 38px;
+    left: 522px;
+    top: 461px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.line-third-frame{
+    position: absolute;
+    width: 778px;
+    height: 0px;
+    left: 375px;
+    top: 518px;
+    border: 2px solid black;
+    transform: rotate(-90deg);
+}
+.third-frame-first-second-image{
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    right: 300px;
+    top: 218px;
+}
+.third-frame-first-paragraph{
+    position: absolute;
+    width: 250px;
+    height: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    right: 40px;
+    top: 218px;
+}
+.third-frame-second-image{
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    right: 300px;
+    top: 383px;
+}
+.third-frame-second-paragraph{
+    position: absolute;
+    width: 250px;
+    height: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    right: 40px;
+    top: 383px;
+}
+.third-frame-third-image{
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    right: 300px;
+    top: 576px;
+}
+.third-frame-third-paragraph{
+    position: absolute;
+    width: 250px;
+    height: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    right: 40px;
+    top: 576px;
+}
+.third-frame-fourth-image{
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    right: 300px;
+    top: 748px;
+}
+.third-frame-fourth-paragraph{
+    position: absolute;
+    width: 250px;
+    height: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    right: 40px;
+    top: 748px;
+}
+.fourth-frame{
+    position: absolute;
+    width: 1187px;
+    height: 878px;
+    left: 0px;
+    top: 2634px;
+    background: white;
+}
+.fifth-frame{
+    position: absolute;
+    width: 1187px;
+    height: 878px;
+    left: 0px;
+    top: 2634px;
+    background: white;
+}

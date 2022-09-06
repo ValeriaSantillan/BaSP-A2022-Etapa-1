@@ -3,7 +3,7 @@
     width: 1187px;
     height: 104px;
     left: 325px;
-    top: 0px;
+    top: 0;
     background: #373867;
 }
 #simbolo{
@@ -197,4 +197,96 @@
     position: relative;
     left: 70.5px;
     top: 150px;
+}
+.second-frame{
+    position: absolute;
+    width: 1187px;
+    height: 878px;
+    left: 0px;
+    top: 878px;
+    background: white;
+}
+.second-frame-first-image{
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    left: 59px;
+    top: 183px;
+}
+.second-frame-first-paragraph{
+    position: absolute;
+    left: 294px;
+    top: 183px;
+    width: 300px;
+    height: 137px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.second-frame-third-image{
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    left: 59px;
+    top: 540px;
+}
+.second-frame-third-paragraph{
+    position: absolute;
+    left: 294px;
+    top: 540px;
+    width: 300px;
+    height: 137px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.second-frame-second-image{
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    right: 339px;
+    top: 183px;
+}
+.second-frame-second-paragraph{
+    position: absolute;
+    right: 40px;
+    top: 183px;
+    width: 300px;
+    height: 137px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.second-frame-fourth-image{
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    right: 339px;
+    top: 540px;
+}
+.second-frame-fourth-paragraph{
+    position: absolute;
+    right: 40px;
+    top: 540px;
+    width: 300px;
+    height: 137px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    font-variant: small-caps;
+    text-transform: uppercase;
 }

@@ -5,8 +5,6 @@
     left: 325px;
     top: 0px;
     background: #373867;
-    /*border-bottom-color: white;
-    border-bottom-width: 2px;*/
 }
 #simbolo{
     position: relative;
@@ -148,4 +146,55 @@
     height: 878px;
     left: 325px;
     top: 104px;
+}
+.first-frame{
+    position: absolute;
+    width: 1187px;
+    height: 878px;
+    left: 0px;
+    top: 0px;
+    background: white;
+}
+.first-frame-text{
+    position: relative;
+    width: 435px;
+    height: 44px;
+    left: 70.5px;
+    top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    font-variant: small-caps;
+    color: black;
+    text-transform: uppercase;
+}
+.first-frame-paragraph{
+    position: relative;
+    width: 408px;
+    height: 160px;
+    left: 70px;
+    top: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    font-variant: small-caps;
+    color: grey;
+    text-transform: uppercase;
+}
+.first-frame-image{
+    position: absolute;
+    width: 574px;
+    height: 560px;
+    right: 82px;
+    top: 64px;
+    border-radius: 8px;
+}
+.first-frame-bottom{
+    position: relative;
+    left: 70.5px;
+    top: 150px;
 }

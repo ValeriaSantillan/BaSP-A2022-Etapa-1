@@ -421,11 +421,122 @@
     top: 2634px;
     background: white;
 }
+.fourth-frame-text{
+    position: absolute;
+    width: 423px;
+    height: 35px;
+    left: 151px;
+    top: 258px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    font-variant: small-caps;
+    color: black;
+    text-transform: uppercase;
+}
+.fourth-frame-first-image{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 200px;
+    top: 317px;
+}
+.fourth-frame-second-image{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 300px;
+    top: 342px;
+}
+.fourth-frame-third-image{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 370px;
+    top: 305px;
+}
+.fourth-frame-first-paragraph{
+    position: absolute;
+    width: 352px;
+    height: 295px;
+    left: 151px;
+    top: 465px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.line-fourth-frame{
+    position: absolute;
+    width: 778px;
+    height: 0px;
+    left: 375px;
+    top: 518px;
+    border: 2px solid black;
+    transform: rotate(-90deg);
+}
+.fourth-frame-second-text{
+    position: absolute;
+    width: 423px;
+    height: 35px;
+    left: 898px;
+    top: 258px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    font-variant: small-caps;
+    color: black;
+    text-transform: uppercase;
+}
+.line-fourth-second-frame{
+    position: absolute;
+    width: 281px;
+    height: 0px;
+    left: 898px;
+    top: 320px;
+    border-bottom: 2px solid grey;
+}
+.fourth-form{
+    position: absolute;
+    width: 554px;
+    height: 67px;
+    left: 898px;
+    top: 362px;
+    bottom: 5px;
+}
+.fourth-frame-third-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.input{
+    width: 275px;
+}
+.input-message{
+    width: 325px;
+    height: 121px;
+}
+.button{
+    position: absolute;
+    right: 350px;
+    background: #373867;
+    color: white;
+}
 .fifth-frame{
     position: absolute;
     width: 1187px;
     height: 878px;
     left: 0px;
-    top: 2634px;
+    top: 3512px;
     background: white;
 }
